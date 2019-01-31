@@ -1,0 +1,37 @@
+.pickerWrap{
+    width: 100%;;
+    height: auto;
+    /*border: 1px solid #ccc;*/
+}
+
+
+div.am-picker-popup-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+div.am-list-body{
+    background-color: transparent;
+}
+
+
+div.am-picker-popup-wrap ,div.am-picker-popup-wrap{
+    position: absolute !important;
+    /* bottom: 0; */
+    left: 910px;
+    top: 490px;
+    width: 299px;
+    height: 293px;
+}
+
+div.am-list-item div.am-input-label.am-input-label-5 ,div.am-list-item .am-input-control input,div.am-list-item .am-list-line .am-list-extra{
+    font-size: 12px;
+}
+
+
+.am-button-primary {
+    margin-top: 20px;
+    font-size: 14px;
+}

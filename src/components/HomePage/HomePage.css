@@ -1,0 +1,19 @@
+.homeWrap *{
+    font-size: 12px;
+}
+
+.productList{
+    position: relative;
+    z-index: 3;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: scroll;
+    white-space: nowrap;
+    height: 333px;
+    background-color: #f5f5f5;
+}
+
+.homeWrap .am-card-header{
+    padding:1px 15px;
+}
+
+

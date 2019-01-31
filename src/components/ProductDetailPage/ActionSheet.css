@@ -1,0 +1,55 @@
+.detailWrap .mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3)
+}
+
+.row{
+    padding: 10px 5px;
+}
+
+.sheetWrap{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 163px;
+    width: 100%;
+    background: #fff;
+    z-index: 1;
+}
+
+.numWrap span{
+    padding: 1px 14px;
+    background: rgba(200, 200, 200, 0.3);
+    border-radius:3px;
+    border: 1px solid rgba(200, 200, 200, 0.5)
+}
+
+.buttonWraps button{
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    border: none;
+    padding: 17px 0;
+    color: #fff;
+    font-size: 12px;
+}
+
+.buttonWraps button:nth-child(1){
+    background: #f18e47;
+    left: 0;
+}
+
+.buttonWraps button:nth-child(2){
+    background: red;
+    right: 0;
+}
+
+
+div.am-toast{
+    margin-left: 100px;
+    margin-top: 10px;
+}

@@ -1,0 +1,46 @@
+.UserPageWrap{
+    position: relative;
+    z-index: 3;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+
+.UserPageWrap *{
+    font-size: 12px;
+}
+
+.headerWrap{
+    margin-top: 50px;
+}
+
+
+.toWrap{
+    margin-top: 20px;
+}
+.toOrderCenter, .toAddressCenter{
+    box-sizing: border-box;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    display: flex;
+    margin: 10px 5px;
+}
+
+
+.toOrderCenter span,.toAddressCenter span{
+    padding: 5px 0;
+}
+.toOrderCenter span:nth-child(1) ,.toOrderCenter span:nth-child(3) ,.toAddressCenter span:nth-child(1),.toAddressCenter span:nth-child(3){
+    flex-basis: 16px;
+}
+
+
+
+.toOrderCenter span:nth-child(3) ,.toAddressCenter span:nth-child(3){
+    background: url('https://wly-1254337200.cos.ap-guangzhou.myqcloud.com/right.svg') no-repeat center center;
+    /* background-size: cover; */
+}
+
+.toOrderCenter span:nth-child(2) ,.toAddressCenter span:nth-child(2){
+    flex-grow: 1;
+    text-align: center;
+}

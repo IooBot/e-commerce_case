@@ -1,0 +1,66 @@
+.AppWrap{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App{
+    box-sizing: border-box;
+    position: relative;
+    width: 300px;
+    height: 534px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #f5f5f5;;
+}
+
+.App *::-webkit-scrollbar {display:none !important}
+
+.phone6s{
+    padding: 84px 21px;
+    background: url('https://wly-1254337200.cos.ap-guangzhou.myqcloud.com/6s.png') no-repeat;
+    background-size: cover;
+}
+
+p.p1,p.p2,p.p3{
+    font-size: 10px;
+}
+
+
+.AppWrap .title{
+    font-size: 13px;
+}
+
+
+
+
+.indexPage{
+    position: relative;
+    z-index: 4;
+}
+
+div.am-modal-wrap {
+    margin-left: 200px;
+}
+
+div.am-activity-indicator-content,.am-activity-indicator.am-activity-indicator-toast{
+    position: absolute !important;
+}
+
+.shopAppWrap .orderCnerWrap .am-tabs-default-bar-tab{
+    font-size: 12px !important;
+}
+
+.shopAppWrap .orderList button{
+    border-radius: 3px;
+    border: none;
+    background: green;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+
+
+

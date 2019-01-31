@@ -1,0 +1,50 @@
+.my-radio .am-radio {
+    padding: 2.5px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin-right: 5px;
+    
+  }
+
+  .am-list-item .am-list-line .am-list-content{
+    font-size: 12px;
+  }
+
+  .addressListWrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+    overflow: hidden;
+    margin-top: 10px;
+    border-bottom: 1px solid #d8d2d2;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+  }
+
+  .left-icon{
+    height: 15px;
+    flex-basis: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .left-icon:hover{
+    box-shadow: 0 0 1px 1px #ccc;
+  }
+  .right-icon{
+    height: 20px;
+    width: 20px;
+    flex-basis: 21px;
+    background: url('../../images/modify.svg') no-repeat center center;
+  }
+
+  .middle-text{
+    height: 20px;
+    flex-basis: 248px;
+    line-height: 20px;
+    padding: 0 5px;
+  }
+
+ 

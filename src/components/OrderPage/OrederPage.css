@@ -1,0 +1,49 @@
+.addressWrap  *{
+    font-size: 12px;
+}
+
+div.addressWrap{
+    font-size: 10px;
+    display: flex;
+    padding: 5px 2px;
+}
+
+.addressWrap span{
+    padding: 8px;
+}
+.addressWrap span:nth-child(1){
+    flex-basis: 16px;
+    background: url("https://wly-1254337200.cos.ap-guangzhou.myqcloud.com/positioning.svg") no-repeat center center;
+}
+
+.addressWrap span:nth-child(2){
+    flex-grow: 1;
+    text-align: center;
+}
+.addressWrap span:nth-child(3){
+    flex-basis: 16px;
+    background: url("https://wly-1254337200.cos.ap-guangzhou.myqcloud.com/right.svg") no-repeat center center;
+}
+.payResult{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+
+.payResult div:nth-child(1){
+    flex-basis: 200px;
+    padding: 15px 0px;
+    text-align: center;
+    background: #f7eb91;
+}
+.payResult div:nth-child(2){
+    flex-grow: 1;
+    background: red;
+    color:#fff;
+    padding: 15px 0px;
+    text-align: center;
+}

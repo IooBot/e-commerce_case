@@ -1,0 +1,11 @@
+.navBars{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index:100;
+}
+
+div.am-navbar{
+    background-color: black;
+}

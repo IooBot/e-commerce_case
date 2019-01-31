@@ -1,0 +1,34 @@
+
+.headTitle{
+    text-align: center;
+    padding: 5px 0;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.65);
+}
+
+.orderList{
+    -webkit-overflow-scrolling: touch;
+    overflow-x: scroll;
+    white-space: nowrap;
+    height: 425px;
+}
+.orderList *{
+    font-size: 12px;
+}
+
+.titleWrap{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.orderList  .am-card:not(.am-card-full){
+    border: none !important;
+}
+
+
+.am-card-header{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}

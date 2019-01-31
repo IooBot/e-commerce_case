@@ -1,0 +1,15 @@
+.head{
+    height: 158px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head .avatar{
+    border-radius: 50%;
+}
+
+.nickName{
+    font-weight: bold;
+}

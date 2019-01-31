@@ -1,0 +1,9 @@
+.addressList *{
+    font-size: 12px;
+}
+
+.addressPageWrap{
+    position: relative;
+    z-index: 3;
+    padding: 0 5px;
+}

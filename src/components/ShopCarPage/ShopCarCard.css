@@ -1,0 +1,25 @@
+.cardWrap{
+    display: flex;
+}
+
+.middle{
+    padding-left: 5px;
+    flex-grow: 1;
+    
+}
+
+.right{
+    flex-basis: 30px; 
+}
+
+.right button{
+    margin-top: 43px;
+}
+
+.deleteButton{
+    border-radius: 3px;
+    border: none;
+    background: green;
+    padding: 5px 10px;
+    color: #fff;
+}

@@ -1,0 +1,32 @@
+.actionWrap{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.actionWrap button{
+    padding: 16px 0px;
+    flex-grow: 1;
+    border: none;
+    font-size: 12px;
+}
+
+.actionWrap .service,.actionWrap  .toCar{
+    flex-basis: 40px;
+    background: #ffffff;
+    font-size: 6px;
+    border-left: 1px solid rgba(200, 200, 200, 0.5);
+}
+
+.addCar{
+    background: #f18e47;
+    color: #fff;
+}
+
+.toPay{
+    background: red;
+    color: #fff;
+}
